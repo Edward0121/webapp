@@ -1,0 +1,327 @@
+html{
+    font-size: 100px;
+}
+html,body,.main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.main{
+
+}
+.main .info{
+    height: 12.04rem;
+    width: 6.75rem;
+}
+.main .info .cover{
+    height: 12.04rem;
+    width: 6.75rem;
+}
+.main .info h1{
+    font-size: .94rem;
+    position: absolute;
+    top: 2.36rem;
+    left: 1.2rem;
+    color: slategray;
+    font-weight: 500;
+    letter-spacing: .11rem;
+
+}
+.main .info span{
+    font-size: 0.65rem;
+    position: absolute;
+    top: 4.36rem;
+    left: 1.4rem;
+    color: slategray;
+    font-weight: 500;
+    letter-spacing: .11rem;
+}
+.main .info span.name{
+    left: 3.5rem;
+}
+.main .info span:nth-of-type(3){
+    font-size: .4rem;
+    top: 5.5rem;
+    left: 1rem;
+}
+.main .slide2{
+    height: 100%;
+}
+.main .slide2 .wrapper{
+    background: url("../img/true.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.main .slide2 .wrapper img{
+    width: 100%;
+    height: 100%;
+
+    display: block;
+}
+.main .slide2 .wrapper span{
+    display: block;
+    height: 2.5rem;
+    width: 6.4rem;
+    background: url(../img/2.png) no-repeat;
+    position: absolute;
+    top: .5rem;
+    left: -.5rem;
+}
+.main .slide2 .wrapper .sp2{
+    top: 3rem;
+    background-position: 0 -2.5rem;
+}
+.main .slide2 .wrapper .sp3{
+    top: 5.5rem;
+    background-position-y: -5.5rem;
+}
+.main .slide2 .wrapper .sp4{
+    top: 8rem;
+    background-position-y: -8.5rem;
+}
+.main .slide2 .wrapper p{
+    display: block;
+    position: absolute;
+    top: .6rem;
+    font-size: .3rem;
+    color: black;
+    left: 2.1rem;
+    width: 4rem;
+}
+.main .slide3 .wrapper1{
+    background: url("../img/3.png");
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+}
+.main .slide3 .wrapper1 span:nth-of-type(1){
+    font-size: .5rem;
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 2.3rem;
+}
+.main .slide3 i{
+    font-size: .4rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 2rem;
+    font-style: normal;
+}
+.main .slide3 i:nth-child(2){
+    top:6.3rem;
+}
+.main .slide3 p{
+    font-size: .3rem;
+    position: absolute;
+    left: .2rem;
+    top: 2.6rem;
+}
+.main .slide3 p:nth-of-type(2){
+    top: 7rem;
+}
+.slide4 .wrapper2{
+    background: url("../img/true1.jpg") no-repeat center;
+    height:100%;
+    width:100%;
+    background-size: cover;
+}
+.slide4 .wrapper2 span{
+    font-size: 0.5rem;
+    position: absolute;
+    left: .5rem;
+    top: 3rem;
+}
+.slide4 .wrapper2 span:nth-of-type(2){
+    left: 3.3rem;
+}
+.slide4 .wrapper2 p{
+    position: absolute;
+    left: .2rem;
+    top: 4rem;
+    width: 3rem;
+    font-size: 0.3rem;
+}
+.slide4 .wrapper2 p:nth-of-type(2){
+    left:3.3rem;
+}
+.slide4 .wrapper2 .header{
+    font-size: .7rem;
+    position: absolute;
+    top: .9rem;
+    left: 1.8rem;
+}
+.slide5 .wrapper3{
+    background: url("../img/sea.jpg") no-repeat center;
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+.slide5 .wrapper3 span:nth-of-type(1){
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    font-size: .6rem;
+}.slide5 .wrapper3 p{
+     font-size: .4rem;
+     position: absolute;
+     top: 2.5rem;
+     left: 0;
+     width: 6rem;
+     text-indent: 2em;
+ }
+
+
+ .slide5 .wrapper3 span:nth-of-type(2){
+     position: absolute;
+     top: 9rem;
+     font-size: .5rem;
+     left: .2rem;
+ }
+ .slide5 .wrapper3 span:nth-of-type(3){
+     position: absolute;
+     left: .4rem;
+     top: 10rem;
+     font-size: .4rem;
+ }
+.slide5 .wrapper3 span:nth-of-type(4){
+    position: absolute;
+    left: .4rem;
+    top: 10.7rem;
+    font-size: .4rem;
+}
+.slide6 .info1{
+    background: url(../img/true2.jpg) no-repeat;
+    height: 100%;
+    width:100%;
+}
+.slide6 .info1 span{
+    display: block;
+    font-size: .4rem;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+}
+.slide6 .info1 span:nth-of-type(1){
+    top: 2.3rem;
+}
+.slide6 .info1 span:nth-of-type(2){
+     top: 3.3rem;
+ }
+.slide6 .info1 span:nth-of-type(3){
+    top: 4.3rem;
+}
+.slide6 .info1 span:nth-of-type(4){
+    top: 5.3rem;
+}
+.slide6 .info1 span:nth-of-type(5){
+    top: 6.3rem;
+}
+.slide6 .info1 img{
+    width: 5rem;
+    height:2rem;
+    position: absolute;
+    left: 1rem;
+    top:7rem;
+}
+/*封面*/
+#page1 h1{
+    -webkit-animation:bounceInLeft 1s 0s both;
+}
+#page1 span:nth-of-type(1){
+    -webkit-animation:fadeInDown 1s 0.4s both;
+}
+#page1 span:nth-of-type(2){
+    -webkit-animation:fadeInDown 1s 0.4s both;
+}
+#page1 span:nth-of-type(3){
+    -webkit-animation:fadeInRight 1s 0.7s both;
+}
+
+/*基本信息*/
+#page2 span:nth-of-type(1){
+    -webkit-animation:bounceIn 1s 0s both;
+}
+#page2 span:nth-of-type(2){
+    -webkit-animation:bounceInDown 1s 0.2s both;
+}
+#page2 span:nth-of-type(3){
+    -webkit-animation:bounceInUp 1.2s 0.5s both;
+}
+#page2 span:nth-of-type(4){
+    -webkit-animation:flipInX 1.4s 0.8s both;
+}
+#page2 span:nth-of-type(5){
+    -webkit-animation:flipInY 1.7s 1s both;
+}
+#page2 img:nth-of-type(1){
+    -webkit-animation:lightSpeedIn 2s 1.3s both;
+}
+/*技能栏*/
+
+#page3 span:nth-of-type(1){
+     -webkit-animation:zoomIn 1s 0s both;
+ }
+#page3 span:nth-of-type(2){
+    -webkit-animation:zoomInLeft 1.5s 0.3s both;
+}
+#page3 span:nth-of-type(3){
+    -webkit-animation:zoomInRight 2s 0.6s both;
+}
+#page3 span:nth-of-type(4){
+    -webkit-animation:zoomInUp 2.5s 0.9s both;
+}
+#page4 span:nth-of-type(1){
+    -webkit-animation:fadeIn 1.5s 0s both;
+}
+#page4 i:nth-of-type(2){
+    -webkit-animation:zoomInLeft 1s 0.3s both;
+}
+#page4 i:nth-of-type(1){
+    -webkit-animation:zoomInRight 1s 1.7s both;
+}
+#page4 p:nth-of-type(1){
+     -webkit-animation:bounceInLeft 1s 1.3s both;
+ }
+#page4 p:nth-of-type(2){
+     -webkit-animation:bounceInRight 1s 2.3s both;
+ }
+#page4 p:nth-of-type(2){
+    -webkit-animation:bounceInRight 1s 2.3s both;
+}
+/*项目经验*/
+#page5 .header{
+     -webkit-animation:zoomIn 1s 0s both;
+ }
+#page5 span:nth-of-type(1){
+     -webkit-animation:fadeInLeft .7s .5s both;
+ }
+#page5 span:nth-of-type(2){
+    -webkit-animation:fadeInRight .8s 1.6s both;
+}
+#page5 p:nth-of-type(1){
+    -webkit-animation:rotateInDownLeft 1s 1.2s both;
+}
+#page5 p:nth-of-type(2){
+    -webkit-animation:rotateInDownRight 1s 1.9s both;
+}
+/*自我评价*/
+#page6 span:nth-of-type(1){
+    -webkit-animation:zoomIn 1s 0s both;
+}
+#page6 p:nth-of-type(1){
+     -webkit-animation:rotateIn 1s .7s both;
+ }
+#page6 span:nth-of-type(2){
+    -webkit-animation:lightSpeedIn .7s 1.2s both;
+}
+#page6 span:nth-of-type(3){
+    -webkit-animation:rubberBand 1s 1.7s both;
+}
+#page6 span:nth-of-type(4){
+    -webkit-animation:tada 1s 1.9s both;
+}
